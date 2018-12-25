@@ -1,0 +1,27 @@
+.form-label{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-top: 0.6rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+    color: #333;
+}
+
+.form-input{
+    display: block;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    border: none;
+    background-color: rgb(255,255,255);
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.form-input:placeholder-shown + .form-label{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+}
